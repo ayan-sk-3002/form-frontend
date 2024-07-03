@@ -1,0 +1,18 @@
+.option-6{
+    display: flex;
+}
+.date-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #007bff;
+    width: 300px;
+    color: #fff;
+  }
+  
+  .date-input:focus {
+    border-color: #696969;
+    outline: none;
+    box-shadow: 0 0 5px rgba(116, 116, 116, 0.5);
+  }

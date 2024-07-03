@@ -1,0 +1,26 @@
+.option-4{
+    width: 100%;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.option-4 input{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.option-4 .duration span{
+    font-size: 2.5em;
+    margin-right: 30px;
+    border: 1px solid #Ccc;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.option-4 .options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

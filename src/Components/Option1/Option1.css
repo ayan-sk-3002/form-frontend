@@ -1,0 +1,53 @@
+.option-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .option-1 .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    z-index: 999;
+  }
+  
+  .options .icon-gender {
+    width: 9em;
+    height: 9em;
+    background: #ff7474;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .options:nth-child(1) .icon-gender {
+    background: #780000;
+  }
+  
+  .options:nth-child(2) .icon-gender {
+    background: #0325ff;
+  }
+  
+  .options .icon {
+    font-size: 2.7em;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  .options .radio-gender {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  .options.active .radio-gender {
+    color: green;
+  }
+  

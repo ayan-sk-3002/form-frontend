@@ -1,0 +1,10 @@
+.option-3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.option-3 .options{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,18 @@
+.done{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.done .icon {
+    width: 9em;
+    height: 9em;
+    background: green;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  

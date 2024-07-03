@@ -1,0 +1,31 @@
+.option-2{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.option-2 .title{
+    color: #5cb2bf;
+    margin: 20px 0;
+}
+.option-2 .front{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.option-2 .front .options{
+    display: flex;
+    align-items: center;
+}
+
+.options.dis-none{
+    display: none;
+    position: absolute;
+    background: #000;
+    top: -10000px;
+}
+.options.active{
+    color: green;
+}
